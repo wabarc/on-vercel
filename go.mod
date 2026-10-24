@@ -1,8 +1,9 @@
 module github.com/wabarc/on-vercel
 
-go 1.24.4
+go 1.25
 
 require (
+	github.com/gorilla/mux v1.8.0
 	github.com/spf13/cobra v1.9.1
 	github.com/wabarc/logger v0.0.0-20210730133522-86bd3f31e792
 	github.com/wabarc/wayback v0.20.1
@@ -57,8 +58,7 @@ require (
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/gookit/color v1.5.3 // indirect
-	github.com/gorilla/mux v1.8.0 // indirect
-	github.com/gorilla/websocket v1.5.1 // indirect
+	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/hashicorp/go-version v1.6.0 // indirect
 	github.com/iawia002/lia v0.0.0-20221116085912-1f653221be4b // indirect
 	github.com/iawia002/lux v0.17.0 // indirect
@@ -114,7 +114,7 @@ require (
 	github.com/rogpeppe/go-internal v1.10.0 // indirect
 	github.com/rs/xid v1.4.0 // indirect
 	github.com/sirupsen/logrus v1.9.0 // indirect
-	github.com/slack-go/slack v0.11.2 // indirect
+	github.com/slack-go/slack v0.23.1 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.6 // indirect
 	github.com/tdewolff/parse/v2 v2.6.5 // indirect
