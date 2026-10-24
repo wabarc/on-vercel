@@ -3,6 +3,7 @@ module github.com/wabarc/on-vercel
 go 1.24.4
 
 require (
+	github.com/gorilla/mux v1.8.0
 	github.com/spf13/cobra v1.9.1
 	github.com/wabarc/logger v0.0.0-20210730133522-86bd3f31e792
 	github.com/wabarc/wayback v0.20.1
@@ -57,8 +58,7 @@ require (
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/gookit/color v1.5.3 // indirect
-	github.com/gorilla/mux v1.8.0 // indirect
-	github.com/gorilla/websocket v1.5.1 // indirect
+	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/hashicorp/go-version v1.6.0 // indirect
 	github.com/iawia002/lia v0.0.0-20221116085912-1f653221be4b // indirect
 	github.com/iawia002/lux v0.17.0 // indirect
